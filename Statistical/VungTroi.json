@@ -1,0 +1,205 @@
+{
+  "Vùng Trời": [
+    {
+      "name": "Không Quân Việt Nam",
+      "title": "Air_Force_Vietnam",
+      "columns": [
+        {
+          "name": "Thời gian",
+          "title": "datetime",
+          "mergeConfig": null
+        },
+        {
+          "name": "Tổng Tốp",
+          "title": "total",
+          "mergeConfig": null
+        },
+        {
+          "name": "Tổng Tốp Ngày",
+          "title": "total_day",
+          "mergeConfig": null
+        },
+        {
+          "name": "Tổng Tốp Đêm",
+          "title": "total_night",
+          "mergeConfig": null
+        },
+        {
+          "name": "Không Quân",
+          "title":"air_force",
+          "mergeConfig": null
+        },
+        {
+          "name": "Hải Quân",
+          "title":"navy",
+          "mergeConfig": null
+        }
+      ],
+      "data": [
+        {
+          "datetime": "1/1/2024",
+          "total": 30,
+          "total_day":18 ,
+          "total_night": 12,
+          "air_force": 14,
+          "navy": 0		
+        },
+        {
+          "datetime": "2/1/2024",
+          "total": 30,
+          "total_day":18 ,
+          "total_night": 12,
+          "air_force": 14,
+          "navy": 0		
+        },
+        {
+          "datetime": "3/1/2024",
+          "total": 30,
+          "total_day":18 ,
+          "total_night": 12,
+          "air_force": 14,
+          "navy": 0			
+        },
+        {
+          "datetime": "4/1/2024",
+          "total": 30,
+          "total_day":18 ,
+          "total_night": 12,
+          "air_force": 14,
+          "navy": 0			
+        }
+      ]
+    },
+    {
+      "name": "aircraft_total_table",
+      "title": "Tổng Hợp",
+      "columns": [
+        {
+          "name": "Thời gian",
+          "title": "datetime",
+          "mergeConfig": null
+        },
+        {
+          "name": "total",
+          "title": "Tổng",
+          "mergeConfig": null
+        },
+        {
+          "name": "total_night",
+          "title": "Đêm",
+          "mergeConfig": null
+        },
+        {
+          "name": "practice",
+          "title": "Diễn tập",
+          "mergeConfig": null
+        },
+        {
+          "name": "practice_night",
+          "title": "Đêm",
+          "mergeConfig": null
+        },
+        {
+          "name": "foreign_total",
+          "title": "Tổng",
+          "mergeConfig": null
+        },
+        {
+          "name": "foreign_night",
+          "title": "Đêm",
+          "mergeConfig": null
+        },
+        {
+          "name": "foreign_mil",
+          "title": "Quân sự nước ngoài",  
+          "mergeConfig": {
+            "mergeWith": ["foreign_total", "foreign_night"],
+            "separator": " "
+          }
+        },
+        {
+          "name": "intelligent",
+          "title": "Trinh sát",
+          "mergeConfig": null
+        },
+        {
+          "name": "fighter",
+          "title": "Tiêm kích",
+          "mergeConfig": null
+        },
+        {
+          "name": "bombard",
+          "title": "Ném bom",
+          "mergeConfig": null
+        },
+        {
+          "name": "other",
+          "title": "Khác",
+          "mergeConfig": null
+        }, 
+        {
+          "name": "China",
+          "title": "Trung Quốc",
+          "mergeConfig": {
+            "mergeWith": ["intelligent", "fighter", "bombard", "other"],
+            "separator": " "
+          }
+        }
+      ],
+      "data": [
+        {
+          "datetime": "1/1/2024",
+          "total": 3831,
+          "total_night": 1569,
+          "practice": 3743,
+          "practice_night": 1557,
+          "foreign_total": 38,
+          "foreign_night": 6,
+          "intelligent": 1,
+          "fighter": 30,
+          "bombard": 4,
+          "other": 9
+        },
+        {
+          "datetime": "2/1/2024",
+          "total": 3831,
+          "total_night": 1569,
+          "practice": 3743,
+          "practice_night": 1557,
+          "foreign_total": 38,
+          "foreign_night": 6,
+          "intelligent": 1,
+          "fighter": 30,
+          "bombard": 4,
+          "other": 9
+        },
+        {
+          "datetime": "3/1/2024",
+          "total": 3831,
+          "total_night": 1569,
+          "practice": 3743,
+          "practice_night": 1557,
+          "foreign_total": 38,
+          "foreign_night": 6,
+          "intelligent": 1,
+          "fighter": 30,
+          "bombard": 4,
+          "other": 9
+        },
+        {
+          "datetime": "4/1/2024",
+          "total": 3831,
+          "total_night": 1569,
+          "practice": 3743,
+          "practice_night": 1557,
+          "foreign_total": 38,
+          "foreign_night": 6,
+          "intelligent": 1,
+          "fighter": 30,
+          "bombard": 4,
+          "other": 9
+        }
+      ]
+    }
+  ]
+}

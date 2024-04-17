@@ -1,0 +1,110 @@
+{
+    "Vùng Biển": [
+      {
+        "name": "Tàu Nước Ngoài",
+        "title": "Foreign_Ships",
+        "columns": [
+          {
+            "name": "Loại Tàu",
+            "title": "type_ship",
+            "mergeConfig": null
+          },        
+          {
+            "name": "Thời gian",
+            "title": "datetime",
+            "mergeConfig": null
+          },
+          {
+            "name": "Quốc Gia",
+            "title": "nation",
+            "mergeConfig": null
+          },
+          {
+            "name": "Số lượng",
+            "title": "quantity",
+            "mergeConfig": null
+          },
+          {
+            "name": "Số hiệu",
+            "title": "number_boat",
+            "mergeConfig": null
+          },  
+          {
+            "name": "Khu Vực",
+            "title": "area",
+            "mergeConfig": null
+          },  
+          {
+            "name": "Vị trí",
+            "title": "location",
+            "mergeConfig": null
+          }
+        ],
+        "data": [
+          {
+            "type_ship": "Tàu Quân sự",
+            "datetime": "1/1/2024",
+            "nation": "TQ",
+            "quantity":2 ,
+            "number_boat": "ND-512, HN 901",
+            "area": "Vùng biển phía Bắc",
+            "location": "ND-512 ở ĐN Đá Thị 22hl, HN-901 ở TB Núi Chúa 30hl"		
+          },
+          {
+            "type_ship": "Tàu chấp pháp, cứu hộ",
+            "datetime": "1/1/2024",
+            "nation": "TQ",
+            "quantity":2 ,
+            "number_boat": "ND-512, HN 901",
+            "area": "Vùng biển phía Bắc",
+            "location": "ND-512 ở ĐN Đá Thị 22hl, HN-901 ở TB Núi Chúa 30hl"		
+          },
+          {
+            "type_ship": "Tàu Quân sự",
+            "datetime": "2/1/2024",
+            "nation": "TQ",
+            "quantity":2 ,
+            "number_boat": "ND-512, HN 901",
+            "area": "Vùng biển phía Bắc",
+            "location": "ND-512 ở ĐN Đá Thị 22hl, HN-901 ở TB Núi Chúa 30hl"		
+          },
+          {
+            "type_ship": "Tàu chấp pháp, cứu hộ",
+            "datetime": "2/1/2024",
+            "nation": "TQ",
+            "quantity":2 ,
+            "number_boat": "ND-512, HN 901",
+            "area": "Vùng biển phía Bắc",
+            "location": "ND-512 ở ĐN Đá Thị 22hl, HN-901 ở TB Núi Chúa 30hl"		
+          },
+          {
+            "type_ship": "Tàu Quân sự",
+            "datetime": "3/1/2024",
+            "nation": "TQ",
+            "quantity":2 ,
+            "number_boat": "ND-512, HN 901",
+            "area": "Vùng biển phía Bắc",
+            "location": "ND-512 ở ĐN Đá Thị 22hl, HN-901 ở TB Núi Chúa 30hl"		
+          },
+          {
+            "type_ship": "Tàu chấp pháp, cứu hộ",
+            "datetime": "3/1/2024",
+            "nation": "TQ",
+            "quantity":2 ,
+            "number_boat": "ND-512, HN 901",
+            "area": "Vùng biển phía Bắc",
+            "location": "ND-512 ở ĐN Đá Thị 22hl, HN-901 ở TB Núi Chúa 30hl"		
+          },
+          {
+            "type_ship": "Tàu Quân sự",
+            "datetime": "4/1/2024",
+            "nation": "TQ",
+            "quantity":2 ,
+            "number_boat": "ND-512, HN 901",
+            "area": "Vùng biển phía Bắc",
+            "location": "ND-512 ở ĐN Đá Thị 22hl, HN-901 ở TB Núi Chúa 30hl"		
+          }
+        ]
+      }
+    ]
+  }
